@@ -2,7 +2,7 @@ version: "2"
 
 services:
   sonarqube:
-    image: sonarqube:7.9-community
+    image: sonarqube:lts
     expose:
       - 9000
     ports:
